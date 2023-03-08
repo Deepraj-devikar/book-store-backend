@@ -1816,7 +1816,7 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-03T1
 info: Connected to the database. {"timestamp":"2023-03-03T11:09:52.347Z"}
 error: 
     status - 500 
-    message - ReferenceError: userId is not defined
+    message - ReferenceError: userID is not defined
     at _callee$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\services\/cart.service.js:12:39)
     at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
     at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
@@ -2783,3 +2783,95 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T1
 info: Connected to the database. {"timestamp":"2023-03-08T11:41:54.666Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T13:46:15.141Z"}
 info: Connected to the database. {"timestamp":"2023-03-08T13:46:15.267Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T16:18:19.698Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:18:19.726Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T16:21:21.988Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:21:22.025Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T16:29:32.200Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:29:32.236Z"}
+error: 
+    status - 500 
+    message - ValidationError: "userID" is not allowed 
+    url - /api/v1/customers 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-08T16:30:12.039Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T16:30:58.980Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:30:59.022Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T16:34:13.621Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:34:13.649Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T16:38:24.511Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:38:24.537Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T16:39:31.845Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:39:31.872Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T16:40:10.518Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:40:10.545Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T16:40:28.498Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:40:28.529Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T16:40:43.948Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:40:43.975Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T16:40:58.116Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:40:58.146Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T16:41:03.903Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:41:03.937Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T16:42:03.695Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:42:03.726Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T16:45:16.710Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:45:16.737Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T16:49:31.112Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:49:31.141Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T16:50:16.467Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:50:16.497Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T16:50:55.326Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:50:55.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T16:59:02.557Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:59:02.589Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T16:59:16.044Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T16:59:16.078Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T17:08:12.898Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T17:08:12.940Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T17:09:05.056Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T17:09:05.085Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T17:10:04.203Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T17:10:04.237Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T17:11:07.913Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T17:11:07.942Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T17:14:07.973Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T17:14:08.005Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T17:14:23.418Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T17:14:23.458Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T17:15:44.577Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T17:15:44.611Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T17:15:57.578Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T17:15:57.645Z"}
+error: 
+    status - 500 
+    message - TypeError: CustomerService.newCustomer is not a function
+    at _callee2$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\controllers\/customer.controller.js:31:40)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at addAddress (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\controllers\/customer.controller.js:29:24)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:144:13)
+    at customerValidator (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\validators\/customer.validator.js:22:3)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:24:5)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/customers/add/address 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-08T17:16:18.651Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-08T17:17:06.238Z"}
+info: Connected to the database. {"timestamp":"2023-03-08T17:17:06.272Z"}

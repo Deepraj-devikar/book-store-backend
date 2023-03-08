@@ -54,3 +54,27 @@ info: ::1 - - [08/Mar/2023:11:42:38 +0000] "GET /api/v1/books?page=2 HTTP/1.1" 2
 
 info: ::1 - - [08/Mar/2023:11:43:04 +0000] "GET /api/v1/books?page=3 HTTP/1.1" 200 3365 "-" "PostmanRuntime/7.31.1"
 
+info: ::1 - - [08/Mar/2023:16:18:36 +0000] "GET /api/v1/books?page=3 HTTP/1.1" 200 3365 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:18:42 +0000] "GET /api/v1/books?page=3 HTTP/1.1" 200 3365 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:19:14 +0000] "GET /api/v1/books/6214803b05253301a4fda584 HTTP/1.1" 200 1338 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:27:58 +0000] "POST /api/v1/customers/add HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:28:57 +0000] "POST /api/v1/customers/add HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:29:36 +0000] "POST /api/v1/customers/add HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:29:52 +0000] "POST /api/v1/customers/add HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:30:12 +0000] "POST /api/v1/customers HTTP/1.1" 500 60 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:16:31:05 +0000] "POST /api/v1/customers HTTP/1.1" 201 232 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:17:16:18 +0000] "POST /api/v1/customers/add/address HTTP/1.1" 500 80 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:17:17:17 +0000] "POST /api/v1/customers/add/address HTTP/1.1" 201 473 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:17:18:56 +0000] "GET /api/v1/customers HTTP/1.1" 200 473 "-" "PostmanRuntime/7.31.1"
+

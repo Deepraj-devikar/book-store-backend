@@ -2,15 +2,15 @@ import Wishlist from '../models/wishlist.model';
 import * as BookService from '../services/book.service';
 
 //add book to wishlist
-export const addBook = async (userId, bookId) => {
+export const addBook = async (userID, bookId) => {
   const book = await BookService.getBook(bookId);
   if(!book){
 		return {error: 1, status: HttpStatus.NOT_FOUND, message: "Book not found."};
 	}
-  let wishlist = await getWishlist(userId);
+  let wishlist = await getWishlist(userID);
   if(!wishlist){
     wishlist = await Wishlist.create({
-      userID: userId,
+      userID: userID,
       books: [
         {
           productID: book._id,
@@ -52,12 +52,12 @@ export const addBook = async (userId, bookId) => {
 };
 
 //remove book from wishlist
-export const removeBook = async (userId, bookId) => {
+export const removeBook = async (userID, bookId) => {
   const book = await BookService.getBook(bookId);
   if(!book){
 		return {error: 1, status: HttpStatus.NOT_FOUND, message: "Book not found."};
 	}
-  let wishlist = await getWishlist(userId);
+  let wishlist = await getWishlist(userID);
   if(!wishlist){
     return {error: 0, status: HttpStatus.OK, message: "Book not found in wishlist."};
   }
@@ -87,7 +87,7 @@ export const removeBook = async (userId, bookId) => {
 };
 
 //get user cart
-export const getWishlist = async (userId) => {
-  const data = await Wishlist.findOne({userID: userId});
+export const getWishlist = async (userID) => {
+  const data = await Wishlist.findOne({userID: userID});
   return data;
 };

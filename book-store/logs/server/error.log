@@ -1748,7 +1748,7 @@ error:
    {"timestamp":"2023-03-03T11:08:32.661Z"}
 error: 
     status - 500 
-    message - ReferenceError: userId is not defined
+    message - ReferenceError: userID is not defined
     at _callee$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\services\/cart.service.js:12:39)
     at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
     at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
@@ -2590,3 +2590,39 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-03-08T06:03:54.967Z"}
+error: 
+    status - 500 
+    message - ValidationError: "userID" is not allowed 
+    url - /api/v1/customers 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-08T16:30:12.039Z"}
+error: 
+    status - 500 
+    message - TypeError: CustomerService.newCustomer is not a function
+    at _callee2$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\controllers\/customer.controller.js:31:40)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at addAddress (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\controllers\/customer.controller.js:29:24)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:144:13)
+    at customerValidator (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\validators\/customer.validator.js:22:3)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:24:5)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/customers/add/address 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-08T17:16:18.651Z"}

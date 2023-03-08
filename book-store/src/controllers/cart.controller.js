@@ -9,7 +9,7 @@ import * as CartService from '../services/cart.service';
  */
 export const addBook = async (req, res, next) => {
   try {
-    const data = await CartService.addBook(req.body.userId, req.params.bookId);
+    const data = await CartService.addBook(req.body.userID, req.params.bookId);
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
       data: data,
@@ -28,7 +28,7 @@ export const addBook = async (req, res, next) => {
  */
 export const removeBook = async (req, res, next) => {
   try {
-    const data = await CartService.removeBook(req.body.userId, req.params.bookId);
+    const data = await CartService.removeBook(req.body.userID, req.params.bookId);
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.ACCEPTED,
       data: data,
@@ -41,7 +41,7 @@ export const removeBook = async (req, res, next) => {
 
 export const purchase = async (req, res, next) => {
   try {
-    const data = await CartService.purchase(req.body.userId);
+    const data = await CartService.purchase(req.body.userID);
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.ACCEPTED,
       data: data,

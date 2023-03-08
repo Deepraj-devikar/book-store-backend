@@ -39,7 +39,7 @@ var userAuth = /*#__PURE__*/function () {
           return _jsonwebtoken["default"].verify(bearerToken, process.env.AUTH_SECRET_KEY);
         case 7:
           authUser = _context.sent;
-          req.body.userId = authUser.id;
+          req.body.userID = authUser.id;
           next();
           _context.next = 15;
           break;

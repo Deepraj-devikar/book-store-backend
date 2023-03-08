@@ -3,7 +3,7 @@ import * as BookService from '../services/book.service';
 import HttpStatus from 'http-status-codes';
 
 //add book to cart
-export const addBook = async (userId, bookId) => {
+export const addBook = async (userID, bookId) => {
   const book = await BookService.getBook(bookId);
   if(!book){
 		return {error: 1, status: HttpStatus.NOT_FOUND, message: "Book not found."};
@@ -11,10 +11,10 @@ export const addBook = async (userId, bookId) => {
   if(book.quantity <= 0){
 		return {error: 0, status: HttpStatus.OK, message: "Book out of stock."};
 	}
-  let cart = await Cart.findOne({userID: userId, isPurchased: false});
+  let cart = await Cart.findOne({userID: userID, isPurchased: false});
   if(!cart){
     cart = await Cart.create({
-      userID: userId,
+      userID: userID,
       books: [
         {
           productID: book._id,
@@ -76,12 +76,12 @@ export const addBook = async (userId, bookId) => {
 };
 
 //remove book from cart
-export const removeBook = async (userId, bookId) => {
+export const removeBook = async (userID, bookId) => {
   const book = await BookService.getBook(bookId);
   if(!book){
 		return {error: 1, status: HttpStatus.NOT_FOUND, message: "Book not found."};
 	}
-  let cart = await Cart.findOne({userID: userId, isPurchased: false});
+  let cart = await Cart.findOne({userID: userID, isPurchased: false});
   if(!cart){
     return {error: 0, status: HttpStatus.OK, message: "Book not found in cart."};
   }
@@ -129,14 +129,14 @@ export const removeBook = async (userId, bookId) => {
 }
 
 //get user cart
-export const getCart = async (userId) => {
-  const data = await Cart.findOne({userID: userId});
+export const getCart = async (userID) => {
+  const data = await Cart.findOne({userID: userID});
   return data;
 };
 
 //purchase
-export const purchase = async (userId) => {
-  let cart = await Cart.findOne({userID: userId, isPurchased: false});
+export const purchase = async (userID) => {
+  let cart = await Cart.findOne({userID: userID, isPurchased: false});
   cart = Cart.updateOne(
     {
       _id: cart._id

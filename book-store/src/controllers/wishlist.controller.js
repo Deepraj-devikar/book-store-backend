@@ -9,7 +9,7 @@ import * as WishlistService from '../services/wishlist.service';
  */
 export const addBook = async (req, res, next) => {
   try {
-    const data = await WishlistService.addBook(req.body.userId, req.params.bookId);
+    const data = await WishlistService.addBook(req.body.userID, req.params.bookId);
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
       data: data,
@@ -28,7 +28,7 @@ export const addBook = async (req, res, next) => {
  */
 export const removeBook = async (req, res, next) => {
   try {
-    const data = await WishlistService.removeBook(req.body.userId, req.params.bookId);
+    const data = await WishlistService.removeBook(req.body.userID, req.params.bookId);
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
       data: data,
