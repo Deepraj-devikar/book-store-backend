@@ -1,0 +1,44 @@
+info: ::1 - - [04/Mar/2023:04:12:10 +0000] "POST /api/v1/carts/add/book/62158a8405253301a4fda5e0 HTTP/1.1" 500 52 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [04/Mar/2023:04:12:44 +0000] "POST /api/v1/carts/add/book/62158a8405253301a4fda5e0 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.1"
+
+info: ::ffff:127.0.0.1 - - [04/Mar/2023:04:53:11 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Mar/2023:04:53:11 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Mar/2023:04:53:11 +0000] "POST /api/v1/users/register HTTP/1.1" 500 59 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Mar/2023:04:53:11 +0000] "POST /api/v1/users/register HTTP/1.1" 201 321 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Mar/2023:04:53:11 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Mar/2023:04:53:11 +0000] "POST /api/v1/users/register HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Mar/2023:04:53:11 +0000] "POST /api/v1/users/register HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Mar/2023:04:53:11 +0000] "POST /api/v1/users/register HTTP/1.1" 500 59 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Mar/2023:04:53:11 +0000] "POST /api/v1/users/register HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Mar/2023:04:53:11 +0000] "POST /api/v1/users/registe HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Mar/2023:04:53:12 +0000] "POST /api/v1/users/login HTTP/1.1" 200 530 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Mar/2023:04:53:12 +0000] "POST /api/v1/users/login HTTP/1.1" 500 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Mar/2023:04:53:12 +0000] "POST /api/v1/users/login HTTP/1.1" 500 66 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Mar/2023:04:53:12 +0000] "POST /api/v1/users/login HTTP/1.1" 500 59 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Mar/2023:04:53:12 +0000] "POST /api/v1/users/login HTTP/1.1" 500 89 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Mar/2023:04:53:12 +0000] "POST /api/v1/users/logi HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Mar/2023:04:53:12 +0000] "POST /api/v1/users/login HTTP/1.1" 404 52 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Mar/2023:04:53:13 +0000] "POST /api/v1/users/login HTTP/1.1" 401 54 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Mar/2023:04:53:13 +0000] "GET /api/v1/books HTTP/1.1" 200 65 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Mar/2023:04:53:13 +0000] "GET /api/v1/books HTTP/1.1" 500 52 "-" "node-superagent/3.8.3"
+

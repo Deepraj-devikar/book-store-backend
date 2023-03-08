@@ -1,0 +1,16 @@
+info: ::1 - - [02/Mar/2023:10:54:44 +0000] "GET / HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Mar/2023:10:54:56 +0000] "GET /users HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Mar/2023:10:55:28 +0000] "GET /api/v1 HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Mar/2023:11:13:34 +0000] "GET /api/v1/users/register HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:11:15:30 +0000] "POST /api/v1/users/register HTTP/1.1" 201 268 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:11:44:39 +0000] "GET /api/v1/books/ HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:11:45:09 +0000] "GET /api/v1/books/6214803b05253301a4fda584 HTTP/1.1" 200 1339 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [02/Mar/2023:11:45:52 +0000] "GET /api/v1/books/ HTTP/1.1" 200 9282 "-" "PostmanRuntime/7.31.1"
+

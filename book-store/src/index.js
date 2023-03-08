@@ -26,10 +26,14 @@ app.use(helmet());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(morgan('combined', { stream: logStream }));
+// import * as swaggerUi from 'swagger-ui-express';
+
+// import options from './swagger/swagger.json';
 
 database();
 
 app.use(`/api/${api_version}`, routes());
+// app.use(`/api-docs`, swaggerUi.serve, swaggerUi.setup(options));
 app.use(appErrorHandler);
 app.use(genericErrorHandler);
 app.use(notFound);

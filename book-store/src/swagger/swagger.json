@@ -1,0 +1,128 @@
+{
+    "swagger": "2.0.0",
+    "info": {
+        "version": "v1",
+        "title": "Book Store",
+        "description": "Book Store CLI"
+    },
+    "host": "localhost:3000",
+    "basePath": "/api/v1/",
+    "schemes": [
+        "http"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/users/register": {
+            "post": {
+                "tags": [
+                    "User"
+                ],
+                "description": "Register new user",
+                "parameters": [
+                    {
+                        "name": "Register User",
+                        "in": "body",
+                        "description": "User details",
+                        "schema": {
+                            "$ref": "#/definations/registrationUser"
+                        }
+                    }
+                ],
+                "produces":[
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Successfull registation of User"
+                    },
+                    "500": {
+                        "description": "In case of validation errors - (first, last names, email and password are required, min length of first and last names is 4, email is not valid, min length of password is 6)"
+                    },
+                    "404": {
+                        "description": "Route is not found"
+                    }
+                }
+            }
+        },
+        "/users/login": {
+            "post": {
+                "tags": [
+                    "User"
+                ],
+                "description": "Login user and get user token",
+                "parameters": [
+                    {
+                        "name": "Login User",
+                        "in": "body",
+                        "description": "User details",
+                        "schema": {
+                            "$ref": "#/definations/loginUser"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successfull login of User save user token"
+                    },
+                    "500": {
+                        "description": "In case of validation errors like - (email and password are required, email is not valid, min length of password is 6)" 
+                    },
+                    "404": {
+                        "description": "User or route not found"
+                    }
+                }
+            }
+        }
+    },
+    "definations": {
+        "registrationUser": {
+            "type": "object",
+            "properties": {
+                "firstName": {
+                    "type": "string",
+                    "example": "Deepraj"
+                },
+                "lastName": {
+                    "type": "string",
+                    "example": "Devikar"
+                },
+                "email": {
+                    "type": "string",
+                    "example": "deepraj@gmail.com"
+                },
+                "password": {
+                    "type": "string",
+                    "example": "123456"
+                }
+            }
+        },
+        "loginUser": {
+            "type": "object",
+            "properties": {
+                "email": {
+                    "type": "string",
+                    "example": "deepraj@gmail.com"
+                },
+                "password": {
+                    "type": "string",
+                    "example": "123456"
+                }
+            }
+        }
+    },
+    "securityDefinitions": {
+        "JWT": {
+            "type": "apiKey",
+            "name": "authorization",
+            "in": "header"
+        }
+    }
+}

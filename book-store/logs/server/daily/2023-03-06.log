@@ -1,0 +1,285 @@
+info: Connected to the database. {"timestamp":"2023-03-06T07:12:09.638Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T07:12:36.801Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T07:12:36.883Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T10:17:25.075Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:17:25.175Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/carts/remove/book/621588af05253301a4fda5ce 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-03-06T10:18:19.270Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee2$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\services\/cart.service.js:94:29)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/carts/remove/book/621588af05253301a4fda5ce 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-06T10:18:28.947Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T10:20:13.767Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:20:13.805Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee2$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\services\/cart.service.js:97:29)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/carts/remove/book/621588af05253301a4fda5ce 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-06T10:20:28.915Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T10:21:40.167Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:21:40.209Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee2$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\services\/cart.service.js:97:29)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/carts/remove/book/621588af05253301a4fda5ce 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-06T10:21:45.551Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T10:22:03.405Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:22:03.445Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee2$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\services\/cart.service.js:98:29)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/carts/remove/book/621588af05253301a4fda5ce 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-06T10:22:07.792Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T10:22:57.829Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:22:57.864Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee2$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\services\/cart.service.js:98:29)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/carts/remove/book/621588af05253301a4fda5ce 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-06T10:23:02.247Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T10:23:29.098Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:23:29.133Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee2$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\services\/cart.service.js:98:29)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/carts/remove/book/621588af05253301a4fda5ce 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-06T10:23:34.700Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee2$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\services\/cart.service.js:98:29)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/carts/remove/book/621588af05253301a4fda5ce 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-06T10:24:00.658Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T10:24:28.653Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:24:28.692Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee2$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\services\/cart.service.js:98:29)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/carts/remove/book/621588af05253301a4fda5ce 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-06T10:24:32.741Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T10:25:44.131Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:25:44.163Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee2$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\services\/cart.service.js:98:29)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/carts/remove/book/621588af05253301a4fda5ce 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-06T10:25:48.750Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T10:26:09.207Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:26:09.239Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee2$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\services\/cart.service.js:98:29)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/carts/remove/book/621588af05253301a4fda5ce 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-06T10:26:12.894Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T10:26:42.841Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:26:42.887Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'quantity')
+    at _callee2$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\services\/cart.service.js:98:29)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/carts/remove/book/621588af05253301a4fda5ce 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-06T10:26:47.660Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T10:27:15.620Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:27:15.654Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T10:29:36.410Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T10:29:36.446Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T11:11:18.912Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T11:23:47.531Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T11:23:47.567Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlists/add/book/62158a8405253301a4fda5e0 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-03-06T11:25:28.482Z"}
+error: 
+    status - 500 
+    message - ReferenceError: BookService is not defined
+    at _callee$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\services\/wishlist.service.js:4:45)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.addBook (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\services\/wishlist.service.js:4:21)
+    at _callee$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\controllers\/wishlist.controller.js:12:40)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at addBook (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\controllers\/wishlist.controller.js:10:21)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:24:5)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlists/add/book/62158a8405253301a4fda5e0 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-06T11:25:35.836Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T11:26:03.327Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T11:26:03.366Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/carts/purchase 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-03-06T11:29:52.575Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T11:32:21.378Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T11:32:21.422Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T11:32:33.898Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T11:32:33.969Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T11:32:56.829Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T11:32:56.872Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T12:13:30.768Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T12:13:30.809Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T12:14:02.996Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T12:14:03.029Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T12:15:33.893Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T12:15:33.928Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T12:17:46.682Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T12:17:46.732Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T12:20:47.463Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T12:20:47.498Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T12:21:02.829Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T12:21:02.861Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T12:21:26.942Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T12:21:26.978Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T12:23:49.419Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T12:23:49.456Z"}
+error: 
+    status - 500 
+    message - ReferenceError: cart is not defined
+    at _callee2$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\services\/wishlist.service.js:65:39)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlists/remove/book/62158a8405253301a4fda5e0 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-06T12:23:53.812Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T12:24:23.768Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T12:24:23.828Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T12:24:29.263Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T12:24:29.299Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-06T12:24:40.048Z"}
+info: Connected to the database. {"timestamp":"2023-03-06T12:24:40.081Z"}

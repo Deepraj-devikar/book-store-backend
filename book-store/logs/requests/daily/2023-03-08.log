@@ -1,0 +1,12 @@
+info: ::1 - - [08/Mar/2023:05:57:35 +0000] "POST /api/v1/carts/add/book/62158a8405253301a4fda5e0 HTTP/1.1" 201 449 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:05:59:25 +0000] "POST /api/v1/carts/add/book/62158a8405253301a4fda5e0 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:06:00:23 +0000] "POST /api/v1/carts/add/book/6215178d05253301a4fda5c4 HTTP/1.1" 201 86 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:06:03:54 +0000] "POST /api/v1/carts/add/book/6214803b05253301a4fda584 HTTP/1.1" 500 60 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [08/Mar/2023:06:06:21 +0000] "GET /static/js/bundle.js HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Mar/2023:06:06:21 +0000] "GET /manifest.json HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
