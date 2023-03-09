@@ -2,10 +2,10 @@ import Joi from '@hapi/joi';
 
 export const registerUserValidator = (req, res, next) => {
 	const schema = Joi.object({
-		firstName: Joi.string().min(4).required(),
-		lastName: Joi.string().min(4).required(),
+		name: Joi.string().min(4).required(),
 		email: Joi.string().email({ tlds: { allow: false } }).required(),
-		password: Joi.string().min(6).required()
+		password: Joi.string().min(6).required(),
+		mobile: Joi.string().min(10).max(20).required()
 	});
 	const { error, value } = schema.validate(req.body);
 	if (error) {

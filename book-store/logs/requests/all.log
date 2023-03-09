@@ -1425,3 +1425,23 @@ info: ::1 - - [08/Mar/2023:17:17:17 +0000] "POST /api/v1/customers/add/address H
 
 info: ::1 - - [08/Mar/2023:17:18:56 +0000] "GET /api/v1/customers HTTP/1.1" 200 473 "-" "PostmanRuntime/7.31.1"
 
+info: ::1 - - [09/Mar/2023:05:36:29 +0000] "POST /api/v1/users/login HTTP/1.1" 401 54 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:05:39:18 +0000] "POST /api/v1/users/login HTTP/1.1" 401 54 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:05:40:36 +0000] "POST /api/v1/users/login HTTP/1.1" 401 54 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:05:41:28 +0000] "POST /api/v1/users/register HTTP/1.1" 201 522 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:05:44:34 +0000] "POST /api/v1/users/login HTTP/1.1" 200 529 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:05:45:47 +0000] "POST /api/v1/users/login HTTP/1.1" 200 529 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:06:08:44 +0000] "POST /api/v1/users/login HTTP/1.1" - - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:06:10:03 +0000] "POST /api/v1/users/login HTTP/1.1" 200 529 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:06:12:02 +0000] "POST /api/v1/users/register HTTP/1.1" 201 315 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [09/Mar/2023:06:13:26 +0000] "POST /api/v1/users/login HTTP/1.1" 200 523 "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+

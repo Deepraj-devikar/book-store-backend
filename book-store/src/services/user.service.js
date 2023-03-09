@@ -7,8 +7,8 @@ import jwt from 'jsonwebtoken';
 export const registerUser = async (body) => {
 	// password hashing before saving to database
 	body.password = bcrypt.hashSync(body.password, parseInt(process.env.SALT_ROUND));
-	const data = await User.create(body);
-	return data;
+	const user = await User.create(body);
+	return user;
 };
 
 //login user
