@@ -63,15 +63,44 @@ export const addBook = async (req, res, next) => {
 export const removeBook = async (req, res, next) => {
   try {
     const data = await CartService.removeBook(req.body.userID, req.params.bookId);
-    res.status(HttpStatus.ACCEPTED).json({
-      code: HttpStatus.ACCEPTED,
-      data: data,
-      message: 'Book removed successfully'
-    });
+    if(data.message == 'Book not found.'){
+      res.status(HttpStatus.NOT_FOUND).json({
+        code: HttpStatus.NOT_FOUND,
+        data: data,
+        message: 'Book Not Found'
+      });
+    } else {
+      res.status(HttpStatus.ACCEPTED).json({
+        code: HttpStatus.ACCEPTED,
+        data: data,
+        message: 'Book removed successfully'
+      });
+    }
   } catch (error) {
     next(error);
   }
 };
+
+export const removeAllBooks = async (req, res, next) => {
+  try {
+    const data = await CartService.removeBook(req.body.userID, req.params.bookId, 'ALL' == 'ALL');
+    if(data.message == 'Book not found.'){
+      res.status(HttpStatus.NOT_FOUND).json({
+        code: HttpStatus.NOT_FOUND,
+        data: data,
+        message: 'Book Not Found'
+      });
+    } else {
+      res.status(HttpStatus.ACCEPTED).json({
+        code: HttpStatus.ACCEPTED,
+        data: data,
+        message: 'Book removed successfully'
+      });
+    }
+  } catch (error) {
+    next(error);
+  }
+}
 
 export const purchase = async (req, res, next) => {
   try {

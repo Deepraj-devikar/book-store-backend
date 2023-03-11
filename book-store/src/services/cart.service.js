@@ -76,7 +76,7 @@ export const addBook = async (userID, bookId) => {
 };
 
 //remove book from cart
-export const removeBook = async (userID, bookId) => {
+export const removeBook = async (userID, bookId, isAllBooks = false) => {
   const book = await BookService.getBook(bookId);
   if(!book){
 		return {error: 1, status: HttpStatus.NOT_FOUND, message: "Book not found."};
@@ -95,7 +95,7 @@ export const removeBook = async (userID, bookId) => {
   }
   let newCart;
   if(cartHasBook){
-    if(cart.books[bookIndex].quantity == 0 || cart.books[bookIndex].quantity == 1) {
+    if(cart.books[bookIndex].quantity == 0 || cart.books[bookIndex].quantity == 1 || isAllBooks) {
       newCart = Cart.updateOne(
         {
           _id: cart._id
@@ -107,7 +107,7 @@ export const removeBook = async (userID, bookId) => {
             }
           },
           $inc: {
-            cartTotal: -book.price
+            cartTotal: -(book.price * cart.books[bookIndex].quantity)
           }
         }
       );

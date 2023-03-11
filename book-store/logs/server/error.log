@@ -2633,3 +2633,17 @@ error:
       method - GET 
       IP - ::1
      {"timestamp":"2023-03-11T02:52:09.653Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '_id')
+    at _callee2$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\services\/cart.service.js:91:48)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/carts/remove/book/640af9951af44e0d80bed0e2 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-11T09:23:07.842Z"}
