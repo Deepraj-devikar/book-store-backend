@@ -130,7 +130,7 @@ export const removeBook = async (userID, bookId) => {
 
 //get user cart
 export const getCart = async (userID) => {
-  const data = await Cart.findOne({userID: userID});
+  const data = await Cart.findOne({userID: userID, isPurchased: false});
   return data;
 };
 

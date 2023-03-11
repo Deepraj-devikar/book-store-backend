@@ -1,0 +1,19 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-11T02:49:30.795Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T02:49:30.864Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-03-11T02:52:09.653Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-11T03:12:10.997Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T03:12:11.030Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-11T03:14:14.376Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T03:14:14.406Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-11T03:15:35.153Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T03:15:35.189Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-11T03:16:20.410Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T03:16:20.440Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-11T03:16:50.155Z"}
+info: Connected to the database. {"timestamp":"2023-03-11T03:16:50.181Z"}

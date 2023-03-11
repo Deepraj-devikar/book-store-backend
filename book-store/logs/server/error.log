@@ -2626,3 +2626,10 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-03-08T17:16:18.651Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-03-11T02:52:09.653Z"}
