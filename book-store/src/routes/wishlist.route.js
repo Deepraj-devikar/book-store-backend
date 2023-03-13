@@ -4,6 +4,9 @@ import { userAuth } from '../middlewares/auth.middleware';
 
 const router = express.Router();
 
+//route to get wishlist data
+router.get('', userAuth, wishlistController.getWishlist);
+
 //route to add book to wishlist
 router.post('/add/book/:bookId', userAuth, wishlistController.addBook);
 

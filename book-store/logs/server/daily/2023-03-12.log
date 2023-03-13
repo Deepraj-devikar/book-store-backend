@@ -1,0 +1,278 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-12T12:45:32.650Z"}
+info: Connected to the database. {"timestamp":"2023-03-12T12:45:32.723Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/carts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-12T12:48:25.670Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-12T12:48:25.704Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-12T12:48:25.727Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/carts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-12T12:48:25.743Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/carts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-12T12:49:50.431Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-12T12:49:50.448Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/carts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-12T12:49:50.478Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-12T12:49:50.492Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/carts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-12T12:49:56.229Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-12T12:49:56.241Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/carts 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-12T12:49:56.349Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:95:5)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/books 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-03-12T12:49:56.363Z"}

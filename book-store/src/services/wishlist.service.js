@@ -49,6 +49,7 @@ export const addBook = async (userID, bookId) => {
       }
     );
   }
+  return newWishlist;
 };
 
 //remove book from wishlist
@@ -86,7 +87,7 @@ export const removeBook = async (userID, bookId) => {
   return newWishlist;
 };
 
-//get user cart
+//get user wishlist
 export const getWishlist = async (userID) => {
   const data = await Wishlist.findOne({userID: userID});
   return data;
