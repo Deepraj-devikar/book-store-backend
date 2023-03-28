@@ -3324,3 +3324,47 @@ error:
     method - GET 
     IP - ::1
    {"timestamp":"2023-03-12T12:49:56.363Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-13T05:21:02.413Z"}
+info: Connected to the database. {"timestamp":"2023-03-13T05:21:02.515Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullAddress" length must be at least 8 characters long 
+    url - /api/v1/customers/add/address 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-13T09:54:50.983Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '_id')
+    at _callee4$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\services\/cart.service.js:142:17)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/carts/purchase 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-13T10:04:19.479Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-13T10:15:59.653Z"}
+info: Connected to the database. {"timestamp":"2023-03-13T10:15:59.739Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullAddress" length must be at least 8 characters long 
+    url - /api/v1/customers/add/address 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-13T10:26:16.999Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-14T10:24:53.713Z"}
+info: Connected to the database. {"timestamp":"2023-03-14T10:24:53.822Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-15T05:31:57.941Z"}
+info: Connected to the database. {"timestamp":"2023-03-15T05:31:58.011Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-15T11:30:55.802Z"}
+info: Connected to the database. {"timestamp":"2023-03-15T11:30:55.913Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-16T04:49:50.706Z"}
+info: Connected to the database. {"timestamp":"2023-03-16T04:49:50.897Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-17T04:45:14.972Z"}
+info: Connected to the database. {"timestamp":"2023-03-17T04:45:15.070Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-17T06:06:50.734Z"}
+info: Connected to the database. {"timestamp":"2023-03-17T06:06:50.768Z"}

@@ -17,8 +17,9 @@ export const getCart = async (req, res, next) => {
         message: 'Cart fetched successfully'
       });
     }else{
-      res.status(HttpStatus.NOT_FOUND).json({
-        code: HttpStatus.NOT_FOUND,
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: {books: []},
         message: 'Cart not found'
       });
     }
