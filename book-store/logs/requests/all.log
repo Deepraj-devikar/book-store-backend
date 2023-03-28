@@ -19087,3 +19087,77 @@ info: ::1 - - [17/Mar/2023:06:26:38 +0000] "GET /api/v1/wishlists HTTP/1.1" 304 
 
 info: ::1 - - [17/Mar/2023:06:26:38 +0000] "GET /api/v1/books HTTP/1.1" 304 - "http://localhost:3001/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
 
+info: ::1 - - [28/Mar/2023:07:44:56 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 202 1356 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:02:36 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 202 1356 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:11:58 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 202 1356 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:13:42 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 202 1356 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:14:05 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 202 1356 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:15:34 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 202 1356 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:17:13 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 202 1356 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:18:03 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 500 62 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:18:26 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 202 1356 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:18:39 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 500 77 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:18:58 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 500 79 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:19:06 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 202 1356 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:20:15 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 202 1356 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:23:44 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 202 1356 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:24:14 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 202 1356 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:28:40 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 202 1356 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:33:13 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 202 1356 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:33:56 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 202 1356 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:34:40 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 202 1356 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:37:49 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 202 1356 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:39:32 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 202 1356 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:42:13 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 202 1356 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:43:46 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 500 58 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:45:35 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 500 57 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:46:13 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 500 58 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [28/Mar/2023:08:52:25 +0000] "POST /api/v1/books/review/6214803b05253301a4fda584 HTTP/1.1" 202 1463 "-" "PostmanRuntime/7.31.1"
+
+info: ::ffff:127.0.0.1 - - [28/Mar/2023:09:11:59 +0000] "POST /api/v1/users/register HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\tests\integration\/user.test.js:54:35)
+    at Test.assert (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2135:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Tue Mar 28 2023 14:41:59 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\tests\\integration\\/user.test.js:54:35)\n    at Test.assert (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2135:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1115118.359},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19501510,"external":20468084,"heapTotal":114323456,"heapUsed":85469432,"rss":153665536},"pid":11300,"uid":null,"version":"v18.14.0"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\tests\\integration\\/user.test.js:54:35)\n    at Test.assert (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2135:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":35,"file":"F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\tests\\integration\\/user.test.js","function":null,"line":54,"method":null,"native":false},{"column":6,"file":"F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2135,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [28/Mar/2023:09:13:57 +0000] "POST /api/v1/users/register HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\tests\integration\/user.test.js:54:35)
+    at Test.assert (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2135:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Tue Mar 28 2023 14:43:57 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\tests\\integration\\/user.test.js:54:35)\n    at Test.assert (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2135:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1115236.968},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js","review.test.js"],"cwd":"F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18819217,"external":19785791,"heapTotal":89104384,"heapUsed":59609360,"rss":127225856},"pid":26416,"uid":null,"version":"v18.14.0"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\tests\\integration\\/user.test.js:54:35)\n    at Test.assert (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2135:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":35,"file":"F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\tests\\integration\\/user.test.js","function":null,"line":54,"method":null,"native":false},{"column":6,"file":"F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2135,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}

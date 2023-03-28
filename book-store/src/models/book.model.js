@@ -25,7 +25,18 @@ const bookSchema = new Schema(
     },
     price: {
       type: Number
-    }
+    },
+    reviews: [{
+      userID: {
+        type: String
+      },
+      description: {
+        type: String
+      },
+      rating: {
+        type: Number
+      }
+    }]
   },
   {
     timestamps: true

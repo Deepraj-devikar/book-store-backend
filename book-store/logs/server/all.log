@@ -3368,3 +3368,266 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-17T0
 info: Connected to the database. {"timestamp":"2023-03-17T04:45:15.070Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-17T06:06:50.734Z"}
 info: Connected to the database. {"timestamp":"2023-03-17T06:06:50.768Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T07:44:50.389Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T07:44:50.489Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:01:29.653Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:01:29.680Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:01:42.297Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:01:42.331Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:03:03.670Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:03:03.720Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:04:12.026Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:04:12.066Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:04:41.281Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:04:41.325Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:06:49.861Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:06:49.898Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:08:05.625Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:08:05.654Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:11:20.540Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:11:20.580Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:11:29.557Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:11:29.589Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:11:53.639Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:11:53.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:13:00.666Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:13:00.704Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:13:08.453Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:13:08.492Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:15:31.825Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:15:31.857Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:17:09.635Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:17:09.709Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:17:58.400Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:17:58.435Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" is required 
+    url - /api/v1/books/review/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-28T08:18:03.397Z"}
+error: 
+    status - 500 
+    message - ValidationError: "rating" must be less than or equal to 5 
+    url - /api/v1/books/review/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-28T08:18:39.599Z"}
+error: 
+    status - 500 
+    message - ValidationError: "rating" must be larger than or equal to 0 
+    url - /api/v1/books/review/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-28T08:18:58.599Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:20:07.979Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:20:08.009Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:24:11.762Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:24:11.802Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:28:36.898Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:28:36.935Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:33:09.124Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:33:09.156Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:34:32.190Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:34:32.225Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:36:09.973Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:36:10.013Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:37:43.353Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:37:43.385Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:39:28.995Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:39:29.203Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:41:48.444Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:41:48.475Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:42:09.424Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:42:09.456Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:42:57.029Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:42:57.062Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:43:30.153Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:43:30.185Z"}
+error: 
+      status - 28
+      message - Cannot use the part (userID) of (reviews.userID) to traverse the element ({reviews: [ { _id: ObjectId('6422a865cbcb4865b02e8a17'), description: "my review", userID: "6401a016410bde4b1cf62f60", rating: 4 } ]}) 
+      url - /api/v1/books/review/6214803b05253301a4fda584 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-03-28T08:43:46.799Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 28
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.writeHead (node:_http_server:344:11)
+    at ServerResponse.writeHead (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:335:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:994:5)
+    at ServerResponse.send (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:326:13)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:280:10)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:646:15
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:265:14)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:646:15
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:265:14)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:136:14)
+    at _callee3$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\controllers\/book.controller.js:57:5)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/books/review/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-28T08:43:46.818Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:45:35.636Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:45:35.801Z"}
+error: 
+      status - 2
+      message - The positional operator did not find the match needed from the query. 
+      url - /api/v1/books/review/6214803b05253301a4fda584 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-03-28T08:45:35.901Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 2
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.writeHead (node:_http_server:344:11)
+    at ServerResponse.writeHead (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:335:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:994:5)
+    at ServerResponse.send (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:326:13)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:280:10)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:646:15
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:265:14)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:646:15
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:265:14)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:136:14)
+    at _callee3$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\controllers\/book.controller.js:57:5)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/books/review/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-28T08:45:35.916Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:46:07.308Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:46:07.347Z"}
+error: 
+      status - 28
+      message - Cannot use the part (userID) of (reviews.userID) to traverse the element ({reviews: [ { _id: ObjectId('6422a865cbcb4865b02e8a17'), description: "my review", userID: "6401a016410bde4b1cf62f60", rating: 4 } ]}) 
+      url - /api/v1/books/review/6214803b05253301a4fda584 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-03-28T08:46:13.744Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 28
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.writeHead (node:_http_server:344:11)
+    at ServerResponse.writeHead (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:335:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:994:5)
+    at ServerResponse.send (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:326:13)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:280:10)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:646:15
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:265:14)
+    at F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:646:15
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\index.js:265:14)
+    at next (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\express\lib\router\route.js:136:14)
+    at _callee3$ (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\src\controllers\/book.controller.js:57:5)
+    at tryCatch (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/books/review/6214803b05253301a4fda584 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-28T08:46:13.762Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:52:23.719Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:52:23.754Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:53:33.836Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:53:33.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:54:20.811Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:54:20.838Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T08:55:10.128Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T08:55:10.162Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T09:00:41.519Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T09:00:41.602Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T09:01:53.224Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T09:01:53.256Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T09:03:01.756Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T09:03:01.786Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T09:04:22.423Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T09:04:22.456Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T09:05:07.907Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T09:05:07.940Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T09:05:25.827Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T09:05:25.861Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T09:05:30.126Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T09:05:30.159Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T09:06:44.141Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T09:06:44.178Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T09:10:35.688Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T09:10:35.721Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T09:11:25.952Z"}
+info: Connected to the database. {"timestamp":"2023-03-28T09:11:25.982Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T09:11:59.036Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-03-28T09:11:59.115Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\tests\integration\/user.test.js:54:35)
+    at Test.assert (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2135:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Tue Mar 28 2023 14:41:59 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\tests\\integration\\/user.test.js:54:35)\n    at Test.assert (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2135:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1115118.343},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19493294,"external":20459828,"heapTotal":114323456,"heapUsed":85384704,"rss":153612288},"pid":11300,"uid":null,"version":"v18.14.0"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\tests\\integration\\/user.test.js:54:35)\n    at Test.assert (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2135:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-28T09:11:59.144Z","trace":[{"column":35,"file":"F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\tests\\integration\\/user.test.js","function":null,"line":54,"method":null,"native":false},{"column":6,"file":"F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2135,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-28T09:13:57.647Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-03-28T09:13:57.730Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\tests\integration\/user.test.js:54:35)
+    at Test.assert (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (F:\bridgelabz\nodeJSProjects\book-store-backend\book-store\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2135:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Tue Mar 28 2023 14:43:57 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\tests\\integration\\/user.test.js:54:35)\n    at Test.assert (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2135:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":1115236.968},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js","review.test.js"],"cwd":"F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18811001,"external":19777535,"heapTotal":89104384,"heapUsed":59519840,"rss":127201280},"pid":26416,"uid":null,"version":"v18.14.0"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\tests\\integration\\/user.test.js:54:35)\n    at Test.assert (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2135:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-03-28T09:13:57.763Z","trace":[{"column":35,"file":"F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\tests\\integration\\/user.test.js","function":null,"line":54,"method":null,"native":false},{"column":6,"file":"F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"F:\\bridgelabz\\nodeJSProjects\\book-store-backend\\book-store\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2135,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}

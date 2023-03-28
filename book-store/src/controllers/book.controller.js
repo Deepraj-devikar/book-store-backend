@@ -38,3 +38,21 @@ export const getBook = async (req, res, next) => {
     next(error);
   }
 };
+
+/**
+ * Controller to add review to book
+ * @param {object} req - request object
+ * @param {object} res - response obejct
+ * @param {Function} next 
+ */
+export const addReview = async (req, res, next) => {
+  try {
+    const data = await BookService.addReview(req.body, req.params._id);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      message: data.message
+    });
+  } catch (error) {
+    next(error);
+  }
+}
